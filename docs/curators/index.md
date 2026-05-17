@@ -66,7 +66,8 @@ spots by requiring at least one other pair of eyes.
 
 Curatorship is granted by the instance's operating community. For
 the [Dolgellau Town Dataset](../instances/dolgellau-town-dataset.md),
-the operating community is [Arloesi Dolgellau](https://arloesidolgellau.cymru/).
+the operating community is [Arloesi Dolgellau](https://arloesidolgellau.com/),
+a Welsh Community Interest Company (Cwmni Buddiant Cymunedol).
 Becoming a curator is a conversation with the community about
 commitment, capability, and trust.
 

@@ -32,8 +32,9 @@ The five-part architecture, with one-line introductions:
   happens visibly.
 - **Craidd** — the place-based trust core. Curated, provenance-bound
   knowledge with explicit boundaries.
-- **IDRIS** — the reasoning and orchestration layer. Synthesis across
-  Craidd and Prawf, named for [Cadair Idris](welsh-rooted.md).
+- **IDRIS** — the reasoning and orchestration layer. *Intelligent
+  Decision & Reasoning Insight System*; synthesis across Craidd and
+  Prawf, with a deliberate echo of [Cadair Idris](welsh-rooted.md).
 - **Prawf** — the obligation and proof layer. Append-only, hash-chained,
   visible.
 - **Craffter** — the pattern-level observation layer. Sees patterns;
@@ -64,6 +65,7 @@ pattern to specific domains and specific places. The
 [Dolgellau Town Dataset](../instances/dolgellau-town-dataset.md) is the
 first; others will follow in other places and other domains.
 
-The boundary matters: the pattern is licensed by Huw-Lab (under AGPL +
-commercial dual); each instance's *content* is owned by its operating
-community. The community owns what is woven; Huw-Lab maintains the loom.
+The boundary matters: the pattern is licensed by Awen Weave Limited
+(under AGPL + commercial dual); each instance's *content* is owned by
+its operating community. The community owns what is woven; Awen Weave
+Limited maintains the loom.
