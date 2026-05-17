@@ -91,6 +91,14 @@ nav:
       - Overview: commercial/index.md
       - Enquiries: commercial/enquiries.md
 
+markdown_extensions:
+  # Material's `!!! info "..."` callout syntax requires the
+  # `admonition` extension. Without it, the `!!!` lines render as
+  # literal paragraphs.
+  - admonition
+  - pymdownx.details      # collapsible variant of admonition
+  - pymdownx.superfences  # commonly paired; gives fenced-code-in-admonition
+
 extra:
   social:
     - icon: fontawesome/brands/github
