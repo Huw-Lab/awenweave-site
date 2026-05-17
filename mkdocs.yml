@@ -1,0 +1,102 @@
+site_name: Awen Weave
+site_url: https://awenweave.com
+site_description: >
+  Awen Weave — a pattern for weaving together knowledge, relationships,
+  place, data and human insight into coherent living systems.
+site_author: Huw-Lab
+
+repo_url: https://github.com/Huw-Lab/awenweave-site
+repo_name: Huw-Lab/awenweave-site
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  # Interim logo — AI-generated warp/weft mark Huw is iterating on.
+  # Designer-finalised mark integrates in Phase 2.
+  logo: assets/logo.png
+  palette:
+    # Closest Material preset to brand deep-navy + copper; custom CSS
+    # in Phase 2 once the designer's final palette is known.
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    # NB: navigation.instant is intentionally omitted — mkdocs-static-i18n
+    # warns that its language-switcher contextual link isn't compatible
+    # with instant-navigation, and `mkdocs build --strict` treats that
+    # warning as fatal. Functional i18n is more important than client-
+    # side instant navigation for a docs site this size.
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix  # docs/page.md (default en) + docs/page.cy.md (Welsh)
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: cy
+          name: Cymraeg
+          build: true
+          nav_translations:
+            About: Amdanom        # placeholder; tutor pass refines
+            Instances: Achosion
+            For Curators: I Guraduriaid
+            For Developers: I Ddatblygwyr
+            For Commercial Use: I Ddefnydd Masnachol
+            Home: Cartref
+
+# Nav entries point at the English filenames; mkdocs-static-i18n
+# auto-resolves the .cy.md variants at build time. Editing a .cy.md
+# path into nav: would silently fall back to the English file on the
+# cy build — `mkdocs build --strict` doesn't catch this. Always point
+# at the plain (English) filename here.
+nav:
+  - Home: index.md
+  - About:
+      - What Awen Weave is: about/index.md
+      - The framework: about/framework.md
+      - Welsh-rooted positioning: about/welsh-rooted.md
+  - Instances:
+      - Overview: instances/index.md
+      - Dolgellau Town Dataset: instances/dolgellau-town-dataset.md
+  - For Curators:
+      - Overview: curators/index.md
+  - For Developers:
+      - Overview: developers/index.md
+      - License (AGPL + commercial dual): developers/license.md
+  - For Commercial Use:
+      - Overview: commercial/index.md
+      - Enquiries: commercial/enquiries.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Huw-Lab
+
+copyright: >
+  Awen Weave is a brand of Huw-Lab. Content licensed CC-BY-SA 4.0; code
+  samples AGPLv3 unless otherwise marked. AWEN WEAVE wordmark trademark
+  pending.
