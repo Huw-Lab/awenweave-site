@@ -1,50 +1,83 @@
-!!! info "Welsh translation pending"
-    A Welsh-language version of this page is being prepared during
-    the Tuesday tutor session (week of 2026-05-19). Until then, the
-    Welsh-language version of the site shows the placeholder.
+---
+hide:
+  - navigation
+  - toc
+---
+
+<div class="awen-hero" markdown>
 
 # Awen Weave
 
-**Awen is the source of the warp** — the continuity, structure and
-governance that hold the system.
+**A pattern for weaving knowledge, place, and human judgement into coherent living systems.**
 
-**Weave is the source of the weft** — the relationships, data, stories
-and insights woven through to create coherent living systems.
+Open-source · Welsh-rooted · place-hosted
 
-Awen Weave is a pattern for weaving together knowledge, relationships,
-place, data and human insight into coherent living systems. It is
-applied currently to the [Dolgellau Town Dataset](instances/dolgellau-town-dataset.md);
-it is designed to extend to other domains where contracts, obligation,
-provenance and human judgement need to work together honestly.
+</div>
 
-## What Awen Weave gives you
+---
 
-Five things, woven together:
+## Where to start
 
-**Longitudinal integrity** — every claim carries the evidence behind it, the
-date it was made, the source it came from, and the conditions under which
-it might change. The record is honest about what it is and what it isn't.
+<div class="grid cards" markdown>
 
-**Federated intelligence** — instances of Awen Weave are place-based and
-locally-operated. The pattern does not centralise; each instance trusts its
-own ground.
+-   :material-account-multiple:{ .lg .middle } **For curators**
 
-**Provenance and trust** — competing claims coexist rather than silencing one
-another. A canonical view is materialised but never pretends to be the only
-view. Sources are themselves first-class records.
+    ---
 
-**Human-centred AI systems** — automated reasoning sits alongside human
-judgement, never in place of it. Contracts are the source of obligation;
-humans are the source of judgement; learning remains advisory.
+    Patient, considered work weaving the knowledge a community holds about itself. If you care about getting it right — not getting it fast — there's a craft to learn here.
 
-**Coherence through relationships** — knowledge, place, data and people are
-woven together rather than stored apart. The relationships are the substrate.
+    [:octicons-arrow-right-24: What a curator does](curators/index.md)
 
-## Currently in use
+-   :material-package-down:{ .lg .middle } **For developers**
 
-Awen Weave's first public instance is the **[Dolgellau Town Dataset](instances/dolgellau-town-dataset.md)** —
-a place-hosted, community-operated record of the town's buildings, histories,
-and the people and decisions woven around them. The dataset is owned by the
-community; the pattern is licensed by Awen Weave Limited.
+    ---
 
-[Read more about the framework →](about/index.md)
+    `pip install awen-weave` — open source under AGPLv3. Five-part framework: Llys / Craidd / IDRIS / Prawf / Craffter. Build an instance for your place or domain.
+
+    [:octicons-arrow-right-24: Install + use](developers/index.md)
+
+-   :material-handshake:{ .lg .middle } **For commercial use**
+
+    ---
+
+    Need the framework under proprietary terms? Awen Weave Limited grants commercial licenses for organisations whose deployment can't fit AGPLv3.
+
+    [:octicons-arrow-right-24: Commercial licensing](commercial/index.md)
+
+</div>
+
+---
+
+## In use today
+
+In a converted workshop in Dolgellau, a Raspberry Pi holds the record of every building in the town.
+
+The [Dolgellau Town Dataset](instances/dolgellau-town-dataset.md) is Awen Weave's first public instance. A place-hosted, community-operated record of the town — its buildings, histories, and the people and decisions woven around them. Operated by [Arloesi Dolgellau Cwmni Buddiant Cymunedol](https://arloesidolgellau.com/), the Community Interest Company that holds the dataset for the community.
+
+The data lives in Dolgellau. Not in a cloud. Not in Cardiff. In Dolgellau, 200 metres from the buildings it describes.
+
+[:octicons-arrow-right-24: Read more about Dolgellau Town Dataset](instances/dolgellau-town-dataset.md)
+
+---
+
+## What it's built on
+
+**Awen** — the Welsh word for the muse, the source of poetic inspiration — is the **warp**. The long threads strung on the loom before weaving begins: the constitutional principles that don't bend. Contracts as the source of obligation. Humans as the source of judgement. Learning remains advisory.
+
+**Weave** is the **weft**. The threads passed across: the relationships, the data, the contested claims, the stories of individual buildings. The weft adapts because reality adapts.
+
+Pull either out and you don't have cloth. The pattern is the relationship between them.
+
+[:octicons-arrow-right-24: How the framework works](about/framework.md) · [:octicons-arrow-right-24: Why it's named in Welsh](about/welsh-rooted.md)
+
+---
+
+## Currently
+
+- **`awen-weave` v0.1.0 live on [PyPI](https://pypi.org/project/awen-weave/)** — the framework is installable.
+- **[Dolgellau Town Dataset](instances/dolgellau-town-dataset.md)** — Awen Weave's first public instance, operational since May 2026.
+- **First commercial conversations** in progress.
+
+---
+
+*The framework is Welsh-rooted. The application is wherever the work is.*
