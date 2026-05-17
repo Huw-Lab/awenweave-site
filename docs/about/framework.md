@@ -48,7 +48,11 @@ abstract. The trust is grounded.
 
 ## IDRIS — reasoning and orchestration
 
-*IDRIS* is named for Cadair Idris, the mountain south of Dolgellau.
+*IDRIS* stands for **Intelligent Decision & Reasoning Insight System**.
+The acronym is deliberately resonant with Cadair Idris — the mountain
+south of Dolgellau — placing the reasoning layer in the same
+Welsh-rooted lineage as the rest of the framework.
+
 The reasoning layer sits above Craidd and Prawf; it answers questions,
 synthesises across sources, sequences operations. It is the layer that
 brings together what Craidd holds and what Prawf records into useful

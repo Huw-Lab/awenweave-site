@@ -45,6 +45,6 @@ woven together rather than stored apart. The relationships are the substrate.
 Awen Weave's first public instance is the **[Dolgellau Town Dataset](instances/dolgellau-town-dataset.md)** —
 a place-hosted, community-operated record of the town's buildings, histories,
 and the people and decisions woven around them. The dataset is owned by the
-community; the pattern is licensed by Huw-Lab.
+community; the pattern is licensed by Awen Weave Limited.
 
 [Read more about the framework →](about/index.md)
