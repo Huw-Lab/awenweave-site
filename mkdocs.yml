@@ -98,6 +98,16 @@ markdown_extensions:
   - admonition
   - pymdownx.details      # collapsible variant of admonition
   - pymdownx.superfences  # commonly paired; gives fenced-code-in-admonition
+  # Homepage redesign (2026-05-17): hero block uses `markdown` attribute
+  # on a div + grid-cards extension + Material icon shortcodes.
+  - attr_list             # required for `{ .lg .middle }` icon attributes
+  - md_in_html            # required for <div markdown> hero + grid-cards container
+  - pymdownx.emoji:       # Material icon shortcodes like :material-account-multiple:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/awen-hero.css
 
 extra:
   social:
