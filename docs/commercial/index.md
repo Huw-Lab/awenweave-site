@@ -66,16 +66,13 @@ For clarity:
 ## Who Awen Weave Limited is
 
 Awen Weave Limited is a UK private limited company, in formation as of
-May 2026. Sole director: Huw Thomas. The company exists specifically
-to hold the framework IP, grant commercial licenses, and provide
-support to commercial licensees.
+May 2026. The company exists specifically to hold the framework IP,
+grant commercial licenses, and provide support to commercial
+licensees.
 
-The company sits within the wider portfolio of Huw Thomas's ventures,
-which includes With A W Limited (consulting) and other operational
-entities held via With Aw Holdings Limited. The separation between
-Awen Weave Limited (the framework IP holder) and the operating
-community of each Awen Weave instance is structural — the company has
-no claim on the content of any instance.
+The separation between Awen Weave Limited (the framework IP holder)
+and the operating community of each Awen Weave instance is structural
+— the company has no claim on the content of any instance.
 
 ## How to start a commercial conversation
 
